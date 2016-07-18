@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Team A" />
+
+    <TextView
+        android:id="@+id/team_a_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="0" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 points"
+        android:textSize="16dp"
+        android:id="@+id/button3point"
+        android:padding="8dp"
+        android:onClick="plus3"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 points"
+        android:textSize="16dp"
+        android:id="@+id/button2point"
+        android:padding="8dp"
+        android:onClick="plus2"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1 points"
+        android:textSize="16dp"
+        android:id="@+id/button1point"
+        android:padding="8dp"
+        android:onClick="plus1"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.android.courtcounter.MainActivity">
+
+        <TextView
+            android:id="@+id/teamb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Team B" />
+
+        <TextView
+            android:id="@+id/team_b_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="0" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 points"
+            android:textSize="16dp"
+            android:id="@+id/button3pointB"
+            android:padding="8dp"
+            android:onClick="Bplus3"/>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2 points"
+            android:textSize="16dp"
+            android:id="@+id/button2pointB"
+            android:padding="8dp"
+            android:onClick="Bplus2"/>
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+1 points"
+            android:textSize="16dp"
+            android:id="@+id/button1pointB"
+            android:padding="8dp"
+            android:onClick="Bplus1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
